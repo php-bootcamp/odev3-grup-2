@@ -1,13 +1,20 @@
 <?php
+session_start();
+ob_start();
 
-/**
- * Bu dosya örnek amaçlı olarak oluşturulmuştur. Grupla beraber karar verip
- * dosya isimlerini değiştirebilir veya buradaki işlemleri farklı dosyalara
- * bölebilirsiniz.
- */
 
- /**
-  * **Giriş yapmamış kullanıcı** için giriş sayfasına (`login.php`), **giriş
-  * yapmış kullanıcı** için de yazı listesini(`posts.php`) göreceği sayfaya
-  * yönlendirmesi gerekiyor.
-  */
+#nursena karakulah - rabia gül baruğ - rabia demir
+
+$username = $_SESSION["username"];
+$password = $_SESSION["password"];
+
+
+if (isset($username) && isset($password)) {
+
+  // $_SESSION["username"] = $_POST["username"];
+  // $_SESSION["password"] = $_POST["password"];
+
+  header('location: posts.php');
+} else {
+  header('location: login.php');
+}
