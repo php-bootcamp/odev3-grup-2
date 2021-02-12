@@ -18,7 +18,7 @@ include "functions.php";
                 <form method="POST" action="post.php?id=http">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="https://dosya.wmaraci.com/nedir/http.png" alt="HTTP Nedir?">
+                            <img src="images/http.png" alt="HTTP Nedir?">
                             <span>
                                 <h4>HTTP Nedir?</h4>
                             </span>
@@ -59,7 +59,7 @@ include "functions.php";
                 <form method="POST" action="post.php?id=dns">
                     <div class="card-content">
                         <div class="card-img">
-                            <img name="dns-img" src="https://www.iienstitu.com/uploads/Enstitu-2020-foto-02/dns-1_w1145_h572_op.png" alt="">
+                            <img name="dns-img" src="images/dns.png" alt="">
                             <span>
                                 <h4>DNS Nedir?</h4>
                             </span>
@@ -106,7 +106,7 @@ include "functions.php";
                 <form method="POST" action="post.php?id=http-https">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="https://digital-goal.net/tr/wp-content/uploads/2019/08/HTTP-vs-HTTPS.png" alt="">
+                            <img src="images/http-https.png" alt="">
                             <span>
                                 <h4> HTTP VE HTTPS</h4>
                             </span>
